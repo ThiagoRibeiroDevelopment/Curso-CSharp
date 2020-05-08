@@ -1,0 +1,13 @@
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\CursoCSharp.exe
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\CursoCSharp.deps.json
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\CursoCSharp.runtimeconfig.json
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\CursoCSharp.runtimeconfig.dev.json
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\CursoCSharp.dll
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\CursoCSharp.pdb
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.csprojAssemblyReference.cache
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.csproj.CoreCompileInputs.cache
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.AssemblyInfoInputs.cache
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.AssemblyInfo.cs
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.dll
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.pdb
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.genruntimeconfig.cache
