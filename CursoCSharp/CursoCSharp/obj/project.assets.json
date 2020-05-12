@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Encapsulamento/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Encapsulamento.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Encapsulamento.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Encapsulamento/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary1/Encapsulamento.csproj",
+      "msbuildProject": "../ClassLibrary1/Encapsulamento.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Encapsulamento >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\thiag\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Biblioteca\\Treinamento Lemaf\\Curso C#\\Curso-C-\\CursoCSharp\\ClassLibrary1\\Encapsulamento.csproj": {
+              "projectPath": "D:\\Biblioteca\\Treinamento Lemaf\\Curso C#\\Curso-C-\\CursoCSharp\\ClassLibrary1\\Encapsulamento.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
