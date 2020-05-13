@@ -1,0 +1,9 @@
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\ClassLibrary1\bin\Debug\netstandard2.0\Encapsulamento.deps.json
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\ClassLibrary1\bin\Debug\netstandard2.0\Encapsulamento.dll
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\ClassLibrary1\bin\Debug\netstandard2.0\Encapsulamento.pdb
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\ClassLibrary1\obj\Debug\netstandard2.0\Encapsulamento.csprojAssemblyReference.cache
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\ClassLibrary1\obj\Debug\netstandard2.0\Encapsulamento.csproj.CoreCompileInputs.cache
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\ClassLibrary1\obj\Debug\netstandard2.0\Encapsulamento.AssemblyInfoInputs.cache
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\ClassLibrary1\obj\Debug\netstandard2.0\Encapsulamento.AssemblyInfo.cs
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\ClassLibrary1\obj\Debug\netstandard2.0\Encapsulamento.dll
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\ClassLibrary1\obj\Debug\netstandard2.0\Encapsulamento.pdb

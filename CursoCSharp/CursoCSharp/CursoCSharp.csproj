@@ -6,4 +6,8 @@
     <StartupObject>CursoCSharp.Program</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\Encapsulamento.csproj" />
+  </ItemGroup>
+
 </Project>

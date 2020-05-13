@@ -11,3 +11,6 @@ D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\obj\De
 D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.dll
 D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.pdb
 D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.genruntimeconfig.cache
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\Encapsulamento.dll
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\bin\Debug\netcoreapp3.1\Encapsulamento.pdb
+D:\Biblioteca\Treinamento Lemaf\Curso C#\Curso-C-\CursoCSharp\CursoCSharp\obj\Debug\netcoreapp3.1\CursoCSharp.csproj.CopyComplete

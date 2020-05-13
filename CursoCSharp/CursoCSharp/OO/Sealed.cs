@@ -34,6 +34,8 @@ namespace CursoCSharp.OO
 
     class FilhoRebelde : Pai
     {
+        //Pai esta selado, entao eh possivel sobreEscrever o metodo HonrarNomeFamilia de Pai
+        //O que daria pra fazer é ocultar usando o new
         //public override bool HonrarNomeFamilia() {
         //    return false;
         //}

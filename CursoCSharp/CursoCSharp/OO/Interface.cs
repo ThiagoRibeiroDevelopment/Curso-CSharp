@@ -48,7 +48,7 @@ namespace CursoCSharp.OO
             foreach (var op in operacoes)
             {
                 resultado +=
-                    $"Usando {op.GetType().Name} = {op.Operacao(a, b)}\n";
+                    $"Usando {op.GetType().Name} = {op.Operacao(a, b)}\n"; //GetType().Name pega o nome da classe
             }
 
             return resultado;
