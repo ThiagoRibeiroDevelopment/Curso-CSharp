@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
         "outputPath": "D:\\Biblioteca\\Treinamento Lemaf\\Curso C#\\Curso-C-\\CursoCSharp\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -68,6 +71,9 @@
         "packagesPath": "C:\\Users\\thiag\\.nuget\\packages\\",
         "outputPath": "D:\\Biblioteca\\Treinamento Lemaf\\Curso C#\\Curso-C-\\CursoCSharp\\CursoCSharp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\thiag\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
