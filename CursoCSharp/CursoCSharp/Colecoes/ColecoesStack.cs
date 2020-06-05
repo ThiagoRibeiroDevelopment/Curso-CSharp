@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Text;
 
 namespace CursoCSharp.Colecoes
 {
@@ -19,15 +18,15 @@ namespace CursoCSharp.Colecoes
             {
                 Console.Write($"{item} ");
             }
-
-            Console.WriteLine($"\nPop: {pilha.Pop()}"); //pop vai sacar o primeiro elemento da pilha e remover
+            //pop vai sacar o primeiro elemento da pilha e remover
+            Console.WriteLine($"\nPop: {pilha.Pop()}");
 
             foreach (var item in pilha)
             {
                 Console.Write($"{item} ");
             }
-
-            Console.WriteLine($"\nPeek: {pilha.Peek()}"); //Peek mostra o ultimo elemento da pilha mas nao remove
+            //Peek mostra o ultimo elemento da pilha mas nao remove
+            Console.WriteLine($"\nPeek: {pilha.Peek()}"); 
             Console.WriteLine(pilha.Count);
         }
     }

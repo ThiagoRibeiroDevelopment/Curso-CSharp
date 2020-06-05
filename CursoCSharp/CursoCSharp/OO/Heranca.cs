@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CursoCSharp.OO
 {
@@ -33,8 +31,8 @@ namespace CursoCSharp.OO
 
             return VelocidadeAtual;
         }
-        public virtual int Acelerar() //o modificador virtual permite que o metodo seja sobreescrito em outro lugar
-        {
+        public virtual int Acelerar()
+        { //o modificador virtual permite que o metodo seja sobreescrito em outro lugar
             return AlterarVelocidade(5);
         }
 
@@ -78,7 +76,7 @@ namespace CursoCSharp.OO
             Uno carro1 = new Uno();
             Console.WriteLine(carro1.Acelerar());
             Console.WriteLine(carro1.Acelerar());
-            Console.WriteLine(carro1.Frear());
+            Console.WriteLine(carro1.Frear());//ira frear com o metodo frear declarado em tipo Uno:Carro
             Console.WriteLine(carro1.Frear());
             Console.WriteLine(carro1.Frear());
 
@@ -86,7 +84,7 @@ namespace CursoCSharp.OO
             Ferrari carro2 = new Ferrari();
             Console.WriteLine(carro2.Acelerar());
             Console.WriteLine(carro2.Acelerar());
-            Console.WriteLine(carro2.Frear());
+            Console.WriteLine(carro2.Frear());//ira frear com o metodo frear declarado em tipo Ferrari
             Console.WriteLine(carro2.Frear());
             Console.WriteLine(carro2.Frear());
 
@@ -94,7 +92,7 @@ namespace CursoCSharp.OO
             Carro carro3 = new Ferrari(); // Polimorfismo
             Console.WriteLine(carro3.Acelerar());
             Console.WriteLine(carro3.Acelerar());
-            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear()); //ira frear com o metodo frear declarado em tipo Carro
             Console.WriteLine(carro3.Frear());
             Console.WriteLine(carro3.Frear());
 
@@ -102,7 +100,7 @@ namespace CursoCSharp.OO
             carro3 = new Uno(); // Polimorfismo
             Console.WriteLine(carro3.Acelerar());
             Console.WriteLine(carro3.Acelerar());
-            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());//ira frear com o metodo frear declarado em tipo Carro
             Console.WriteLine(carro3.Frear());
             Console.WriteLine(carro3.Frear());
         }

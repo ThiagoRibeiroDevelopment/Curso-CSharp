@@ -23,6 +23,7 @@ namespace CursoCSharp.Colecoes
                    Preco == produto.Preco;
         }
 
+        //GetHashCode serve para juntar um conjunto de dados, para depois ser verificado por algum metodo
         public override int GetHashCode()
         {
             return HashCode.Combine(Nome, Preco);
@@ -48,13 +49,13 @@ namespace CursoCSharp.Colecoes
 
             foreach (var item in carrinho)
             {
-                Console.Write(carrinho.IndexOf(item));
+                Console.Write(carrinho.IndexOf(item)); //indexOf imprimi o indice na frente
                 Console.WriteLine($" {item.Nome} {item.Preco}");
             }
 
             Console.WriteLine(carrinho.Count);
             carrinho.Add(livro);
-            Console.WriteLine(carrinho.LastIndexOf(livro));
+            Console.WriteLine(carrinho.LastIndexOf(livro)); //LastIndexOf retona o ultimo indice add
         }
     }
 }

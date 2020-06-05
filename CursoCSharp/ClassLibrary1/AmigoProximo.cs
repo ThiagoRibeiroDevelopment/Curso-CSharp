@@ -13,9 +13,13 @@ namespace Encapsulamento
             Console.WriteLine("AmigoProximo...");
 
             Console.WriteLine(amiga.InfoPublica);
+            //CorDoOlho só é acessivel por herança
             // Console.WriteLine(amiga.CorDoOlho);
+
             Console.WriteLine(amiga.NumeroCelular);
-            Console.WriteLine(amiga.JeitoDeFalar);
+            Console.WriteLine(amiga.JeitoDeFalar);//JeitoDeFalar possivel por ser internal (dentro do projeto)
+
+            //SegredoFamilia tbm so por herança
             // Console.WriteLine(amiga.SegredoFamilia);
             // Console.WriteLine(amiga.UsaMuitoPhotoshop);
         }

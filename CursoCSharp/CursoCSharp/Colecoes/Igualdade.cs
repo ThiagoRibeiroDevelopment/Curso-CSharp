@@ -16,7 +16,9 @@ namespace CursoCSharp.Colecoes
             Console.WriteLine(p1 == p2); //false pq eles apontam pra memorias diferentes
             Console.WriteLine(p3 == p2); //true pq apontam pro mesmo espaço de memoria
 
-            //
+            //Equals ira comparar se o msmo local de memoria p1 eh o msmo local de memoria p2
+            //para que o Equals compare oq tem dentro do espaço de memoria, eh preciso fazer um override
+            //de Equals dentro da classe Produto comparando Nome e preço
             Console.WriteLine(p1.Equals(p2));
         }
     }

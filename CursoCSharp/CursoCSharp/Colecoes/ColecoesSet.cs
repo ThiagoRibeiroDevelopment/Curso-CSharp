@@ -9,7 +9,8 @@ namespace CursoCSharp.Colecoes
         public static void Executar()
         {
             var livro = new Produto("Game of Throne", 49.9);
-
+            //HashSet é uma estrutura nao indexada, entao RemoveAt, IndexOf e LastIndexOf nao funcionam
+            //List aceita repetição de um msm item na lista, ja o HashSet NAO aceita
             var carrinho = new HashSet<Produto>();
             carrinho.Add(livro);
 
@@ -33,6 +34,8 @@ namespace CursoCSharp.Colecoes
 
             Console.WriteLine(carrinho.Count);
             carrinho.Add(livro);
+            //o tamanho da lista impressa abaixo eh o msmo de cima, pq HashSet nao aceita repetição, ou seja
+            //ele nao insere como um novo
             Console.WriteLine(carrinho.Count);
             // Console.WriteLine(carrinho.LastIndexOf(livro));
         }

@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Encapsulamento
 {
@@ -15,7 +13,8 @@ namespace Encapsulamento
             Console.WriteLine(NumeroCelular);
             Console.WriteLine(JeitoDeFalar);
             Console.WriteLine(SegredoFamilia);
-            // Console.WriteLine(UsaMuitoPhotoshop);
+            //nao consigo acessar UsaMuitoPhotoshop por ele ser método private
+            // Console.WriteLine(UsaMuitoPhotoshop); 
         }
     }
 }

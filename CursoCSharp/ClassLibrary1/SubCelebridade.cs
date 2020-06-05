@@ -18,7 +18,7 @@ namespace Encapsulamento
         // herança ou mesmo projeto
         protected internal string JeitoDeFalar = "Uso muitas gírias";
 
-        // mesma class ou herança no mesmo projeto (c# >= 7.2)
+        // mesma class ou herança no mesmo projeto (disponivel em c# apartir da versao 7.2)
         private protected string SegredoFamilia = "Bla bla";
 
         // private é o padrão

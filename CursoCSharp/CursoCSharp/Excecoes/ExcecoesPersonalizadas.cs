@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace CursoCSharp.Excecoes
 {
@@ -10,7 +9,7 @@ namespace CursoCSharp.Excecoes
 
         public NegativoException(string message) : base(message) { }
 
-        public NegativoException(string message, Exception inner)
+        public NegativoException(string message, Exception inner) //inner é a exceção (a causa)
             : base(message, inner) { }
     }
 
@@ -31,7 +30,7 @@ namespace CursoCSharp.Excecoes
                 throw new NegativoException("Número negativo... :(");
             }
 
-            if (valor % 2 == 1)
+            if (valor % 2 == 1) //Se a divisao por 2 tiver resto 1
             {
                 throw new ImparException("Valor impar... :(");
             }

@@ -6,14 +6,15 @@ namespace CursoCSharp.OO
     public class FilhoNaoReconhecido : SubCelebridade
     {
         public new void MeusAcessos()
-        {
+        {//Operador new acima pq SubCelebridade ja tem o metodo MeusAcessos, 
+            //entao para criar um outro em FilhoNaoReconhecido,eh preciso usar o new
             Console.WriteLine("FilhoNaoReconhecido...");
 
             Console.WriteLine(InfoPublica);
             Console.WriteLine(CorDoOlho);
-            // Console.WriteLine(NumeroCelular);
+            // Console.WriteLine(NumeroCelular);//NumeroCelular eh interno, logo nao acessa fora do projeto
             Console.WriteLine(JeitoDeFalar);
-            // Console.WriteLine(SegredoFamilia);
+            // Console.WriteLine(SegredoFamilia); //Apenas herança no proprio projeto (protect internal)
             // Console.WriteLine(UsaMuitoPhotoshop);
         }
     }

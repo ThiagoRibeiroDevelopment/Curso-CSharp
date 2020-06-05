@@ -18,6 +18,7 @@ namespace CursoCSharp.Colecoes
 
             foreach (var item in arraylist)
             {
+                //GetType informa o tipo do dado de cada itme na lista
                 Console.WriteLine("{0} => {1}", item, item.GetType());
             }
         }

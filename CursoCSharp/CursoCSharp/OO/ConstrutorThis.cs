@@ -23,8 +23,8 @@ namespace CursoCSharp.OO
             Console.WriteLine($"Cachorro {nome} inicializado");
         }
 
-        public Cachorro(string nome, double altura) : this(nome) //this para q o construtor chame o construtor da propria classe cachorro para setar o nome
-        {
+        public Cachorro(string nome, double altura) : this(nome)
+        {//this para q o construtor chame o construtor da propria classe cachorro para setar o nome
             Altura = altura;
         }
 
