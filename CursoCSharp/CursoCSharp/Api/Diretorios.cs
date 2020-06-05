@@ -14,7 +14,7 @@ namespace CursoCSharp.Api
 
             if (Directory.Exists(novoDir))
             {
-                Directory.Delete(novoDir, true);
+                Directory.Delete(novoDir, true);//true exclui de forma recursiva (exclui todas as pastas)
             }
 
             if (Directory.Exists(novoDirDestino))

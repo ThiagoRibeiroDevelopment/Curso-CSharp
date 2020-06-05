@@ -7,7 +7,10 @@ namespace CursoCSharp.Api
     {
         public static string ParseHome(this string path)
         {
-            //A expressao abaixo verifica se a plataforma é Linux, Mac ou Windows, Se for Windows retorna o caminho C: que coloquei 
+            //A expressao abaixo verifica se a plataforma é Linux, Mac ou Windows,
+            //Se for Windows retorna o caminho C: que coloquei "C:/Users/thiag/source""
+            //Abaixo usou um operador ternario: se "Home" é um Unix ou MacOSX, senao eh windows, e retorna
+            //o caminho que passei do disco C
             string home = (Environment.OSVersion.Platform == PlatformID.Unix ||
                 Environment.OSVersion.Platform == PlatformID.MacOSX)
                 ? Environment.GetEnvironmentVariable("HOME")
@@ -20,6 +23,11 @@ namespace CursoCSharp.Api
     {
         public static void Executar()
         {
+            //Abaixo, usei o ~ para dizer que é usar o caminho home antes definido na classe ExtensaoString
+            //mas se eu nao quisse-se usar o metodo ParseHome da classe ExtensaoString
+            //eu poderia ter passado o caminho direto pra variavel path, ficaria:
+            // @"C:/Users/thiag/source/primeiro_arquivo.txt", (nao pode esquecer do @)
+            //E nao preciria passar o ParseHome abaixo
             var path = @"~/primeiro_arquivo.txt".ParseHome();
 
             if (!File.Exists(path))
@@ -34,7 +42,7 @@ namespace CursoCSharp.Api
                     sw.WriteLine("arquivo!");
                 }
             }
-            using (StreamWriter sw = File.AppendText(path))
+            using (StreamWriter sw = File.AppendText(path)) //AppendText acrescenta texto
             {
                 sw.WriteLine("");
                 sw.WriteLine("É possível");

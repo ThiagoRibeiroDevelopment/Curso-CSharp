@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CursoCSharp.Api
 {
@@ -33,7 +31,7 @@ namespace CursoCSharp.Api
             Console.WriteLine(diaAtual.ToString("dd")); //retorna apenas o dia atual
             Console.WriteLine(diaAtual.ToString("d")); //retorna dia mes ano
             Console.WriteLine(diaAtual.ToString("D"));//retorna o dia da semana, dia do mess, mes e ano
-            Console.WriteLine(diaAtual.ToString("g"));//retorna apena o dia atual com a hora, min e sec
+            Console.WriteLine(diaAtual.ToString("g"));//retorna apena o dia atual com a hora e min
             Console.WriteLine(diaAtual.ToString("G"));//retorna apena o dia com horas, min e segundos
             Console.WriteLine(diaAtual.ToString("dd-MM-yyyy HH:mm"));//retorna no formato padrão
         }

@@ -17,13 +17,15 @@ namespace CursoCSharp.Api
             }
 
             Console.WriteLine("== Arquivos ================");
-            var arquivos = dirInfo.GetFiles();
+            //GetFiles retorna os arquivos das infomrçãoes em DirectoryInfo declarado acima em dirInfo
+            var arquivos = dirInfo.GetFiles(); 
             foreach (var arquivo in arquivos)
             {
                 Console.WriteLine(arquivo);
             }
 
             Console.WriteLine("\n== Diretórios ================");
+            //GetDirectories retorna as pastas das infomrçãoes em DirectoryInfo declarado acima em dirInfo
             var pastas = dirInfo.GetDirectories();
             foreach (var pasta in pastas)
             {
@@ -31,8 +33,8 @@ namespace CursoCSharp.Api
             }
 
             Console.WriteLine(dirInfo.CreationTime);
-            Console.WriteLine(dirInfo.FullName);
-            Console.WriteLine(dirInfo.Root);
+            Console.WriteLine(dirInfo.FullName); //Caminho completo
+            Console.WriteLine(dirInfo.Root); //retorna a rais de onde esta (C: ou D:)
             //Parente mostra Pasta pai, se for colocando varios chega ate no root(raiz)
             Console.WriteLine(dirInfo.Parent.Parent); 
         }
